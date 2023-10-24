@@ -1,0 +1,54 @@
+.navbar{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff0a54;
+    color: whitesmoke;
+    padding: 25px 60px;
+    font-family: 'Great Vibes', cursive;
+}
+.cart{
+    position: relative;
+    background-color: white;
+    color: #000814;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.cartamount{
+    position:absolute;
+    top: -15px;
+    right: -10px;
+    background-color: red;
+    font-size: 16px;  
+    padding: 5px;
+    color: aliceblue;
+
+}
+.shop{
+    gap: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,223px);
+}
+.item{
+    font-family: sans-serif;
+    border: 2px solid #000814;
+    border-radius: 4px;
+    font-size: small;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    font-size: medium;
+}
+.price-quantity{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+}
